@@ -19,6 +19,7 @@ async function fetchData(){
         <h1 class="header">${character.name}</h1>
         <h2>${character.gender}</h2>
         <h3>${character.status}</h3>
+        <h3>${character.location.name}</h3>
         <h4>${character.species}</h4>
         
         `
