@@ -9,6 +9,7 @@
     color: black;
     width: 100%;
     height: 50%;
+    border-radius: 3px;
 }
 .head{
     display: flex;
@@ -61,9 +62,13 @@
     align-items: center;
     justify-content: space-between;
     background: rgb(60, 62, 68);
-    margin: 5px 10px 5px 10px;
+    margin: 10px 10px 5px 25px;
     border: 2px solid black;
     border-radius: 10px ;
+}
+.container >* :hover{
+    background-color: rgb(56, 20, 12);
+    transition: 0.4s ease-in;
 }
 .header{
     font-size: 22px;
@@ -134,3 +139,27 @@ body{
     width: 20px;
     height: 30px;
 }
+/* about page*/
+.nav{
+    width: 100vw;
+    height:10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.body{
+    background-color: #fff;
+    color:black
+}
+.intro h1{
+    margin: 10px 0px 20px 0;
+}
+.intro h2{
+    margin: 0 0 20px 0;
+}
+.intro p{
+    font-size: medium;
+}
+.intro{
+    margin: 20px 300px 20px 300px;
+}
+ 
