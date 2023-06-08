@@ -148,7 +148,7 @@ body{
 }
 .body{
     background-color: #fff;
-    color:black
+    color: black;
 }
 .intro h1{
     margin: 10px 0px 20px 0;
@@ -164,4 +164,8 @@ body{
 }
 .text{
     margin: 20px 300px 20px 300px;
+}
+.body{
+    width: 100vw;
+    height: 100vh;
 }
